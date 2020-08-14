@@ -1,3 +1,7 @@
 .btn {
   display:block
 }
+
+#answer, #python, #ruby, #cSharp, #javascript {
+  display:none;
+}
