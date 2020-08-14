@@ -50,13 +50,13 @@ form#programming {
 
 h2 {
   text-align: center;
+  font-style: oblique;
 }
 
 img {
   height: 50%;
   width: 50%;
   border: 2px solid black;
-
 }
 
 #name {
