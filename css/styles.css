@@ -5,3 +5,16 @@
 #answer, #python, #ruby, #cSharp, #javascript {
   display:none;
 }
+
+body {
+  background-color: red;
+  animation-name: bg-color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bg-color {
+  from {background-color: red;}
+  to {background-color: goldenrod;}
+}
