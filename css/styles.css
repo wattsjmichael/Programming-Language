@@ -57,3 +57,10 @@ form#programming {
 h2 {
   text-align: center;
 }
+
+img {
+  height: 75%;
+  width: 75%;
+  border: 2px solid black;
+
+}
