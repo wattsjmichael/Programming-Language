@@ -1,6 +1,11 @@
 .btn {
-  display:block;
-  text-align: center;
+  padding: 10px;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border: 3px solid black;
+  color: black;
 }
 
 #answer, #python, #ruby, #cSharp, #javascript {
@@ -8,6 +13,7 @@
 }
 
 body {
+  text-align:center;
   background-color: red;
   animation-name: bg-color;
   animation-duration: 4s;
@@ -15,12 +21,39 @@ body {
   animation-direction: alternate;
 }
 
+#answer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-left: -200px;
+  margin-top: -200px;
+  display: none;
+  text-align: center;
+  background-color:lightblue;
+  color: black;
+}
+
+
 @keyframes bg-color {
   from {background-color: red;}
   to {background-color: goldenrod;}
 }
 
 form#programming {
-  background-color: white;
+  background-color: black;
+  text-align: center;
+  color:white;
+}
+
+.jumbotron {
+  text-align:center;
+  text-decoration: underline;
+  color: white;
+  background-color: black;
+}
+
+h2 {
   text-align: center;
 }
