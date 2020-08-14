@@ -14,11 +14,6 @@
 
 body {
   text-align:center;
-  background-color: red;
-  animation-name: bg-color;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 
 #answer {
@@ -33,16 +28,13 @@ body {
   text-align: center;
   background-color: lightcoral;
   color: black;
+  border: 10px solid black;
 }
 
 
-@keyframes bg-color {
-  from {background-color: red;}
-  to {background-color: goldenrod;}
-}
 
 form#programming {
-  background-color: lightblue;
+  background-color: #79B177;
   text-align: center;
   color:black;
 }
@@ -59,8 +51,25 @@ h2 {
 }
 
 img {
-  height: 75%;
-  width: 75%;
+  height: 50%;
+  width: 50%;
   border: 2px solid black;
 
+}
+
+#name {
+  text-decoration: underline;
+  text-emphasis: 900;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
 }
