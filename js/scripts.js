@@ -14,10 +14,12 @@ $(document).ready(function() {
 
 
 
-    if ((age >= 21) && (rich === 2)) {
-      $("#answer").show();
-      $("#name").append(name);
-      $("#ruby").show();
+    if (name === "") {
+      $(alert("Please Enter A Name"))
+      location.reload();
+    } else if (age !== age) {
+      $(alert("Please Enter Age"))
+      location.reload();
     } else if ((europe.trim() === "euroYes".trim() && math === 2)) {
       $("#answer").show();
       $("#name").append(name);
@@ -26,6 +28,10 @@ $(document).ready(function() {
       $("#answer").show();
       $("#name").append(name);
       $("#python").show();
+    } else if ((age >= 21) && (rich === 2)) {
+      $("#answer").show();
+      $("#name").append(name);
+      $("#ruby").show();
     } else {
       $("#answer").show();
       $("#name").append(name);

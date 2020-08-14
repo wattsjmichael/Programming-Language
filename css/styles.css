@@ -75,3 +75,9 @@ video {
   z-index: -100;
   transform: translate(-50%, -50%);
 }
+
+.radio {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0.5rem 0;
+}
