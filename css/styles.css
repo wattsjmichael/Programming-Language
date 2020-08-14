@@ -37,7 +37,8 @@ form#programming {
   background-color: #79B177;
   text-align: center;
   color:black;
-  border: 10px solid white
+  border: 10px solid white;
+  border-radius: 25px;
 }
 
 .jumbotron {
@@ -46,6 +47,7 @@ form#programming {
   color: white;
   background-color: black;
   border: 10px solid white;
+  border-radius: 25px;
 }
 
 h2 {

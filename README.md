@@ -16,7 +16,7 @@ A  HTML Website where you answer 5 questions and are presented your programming 
 * Open with your favorite HTML Browser
 
 ## Website
-* [Programming Language Quiz](http://wattsjmichael.github.io/)
+* [Programming Language Quiz](http://wattsjmichael.github.io/Programming-Language)
 
 ## Legal
 Copyright (c) 2020 Michael Watts
