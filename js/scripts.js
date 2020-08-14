@@ -11,17 +11,18 @@ $(document).ready(function() {
 
 
   if ((age >= 21) && (rich === 2)) {
+    refresh();
     $("#answer").show();
     $("#name").append(name);
     $("#ruby").show();
-  } else if ((europe.trim() === "euroYes".trim()) && (math === 2)) {
+  } else if ((europe.trim() === "euroYes".trim() && math === 2)) {
     $("#answer").show();
     $("#name").append(name);
     $("#cSharp").show();
   } else if (rich === 2) {
     $("#answer").show();
     $("#name").append(name);
-    $("#cSharp").show();
+    $("#python").show();
   }
 
   })
