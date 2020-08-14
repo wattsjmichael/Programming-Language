@@ -6,12 +6,15 @@ $(document).ready(function() {
     const math = parseInt($("input:radio[name=math]:checked").val());
     const rich = parseInt($("select#rich").val());
     event.preventDefault();
+   $("#btnRefresh").click(function() {
+     location.reload(false);
+   })
+
     console.log(name, age, math, europe, rich);
 
 
 
   if ((age >= 21) && (rich === 2)) {
-    refresh();
     $("#answer").show();
     $("#name").append(name);
     $("#ruby").show();
@@ -26,6 +29,4 @@ $(document).ready(function() {
   }
 
   })
-
-
 });
