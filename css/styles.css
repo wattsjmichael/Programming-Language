@@ -1,5 +1,6 @@
 .btn {
-  display:block
+  display:block;
+  text-align: center;
 }
 
 #answer, #python, #ruby, #cSharp, #javascript {
@@ -17,4 +18,9 @@ body {
 @keyframes bg-color {
   from {background-color: red;}
   to {background-color: goldenrod;}
+}
+
+form#programming {
+  background-color: white;
+  text-align: center;
 }
