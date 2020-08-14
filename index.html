@@ -14,14 +14,13 @@
     <div class="jumbotron">
       <h1>Programming Language Quiz</h1>
     </div>
-    <
     <form id="programming">
       <h2>What is your name?</h2>
         <label for="firstName">First Name</label>
         <input id="firstName" type="text">
       <h2>What is your age?</h2>
         <label for="age">Age</label>
-        <input id="age" type="text">
+        <input id="age" type="number">
       <h2>Have you been to Europe?</h2>
         <select id="europe">
           <option value="euroYes">Yes</option>
@@ -37,9 +36,11 @@
           <option value="richYes">Yes</option>
           <option value="richNo">No</option>
         </select>
-
+        <button type="submit" class="btn">Click Here to Find Out!</button>
     </form>
-
+    <div id="answer">
+      <p>Hello!<span id="name"></span>, this is what programming language you should start learning! Remember that learning is a life-long adventure and you should look into all languages.</p>
+      </div>
   </div>
 </body>
 </html>
