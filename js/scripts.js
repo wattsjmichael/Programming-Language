@@ -10,8 +10,6 @@ $(document).ready(function() {
       location.reload(false);
     })
 
-    console.log(name, age, math, europe, rich);
-
 
 
     if (name === "") {
